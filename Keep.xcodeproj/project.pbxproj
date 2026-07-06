@@ -269,7 +269,7 @@
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
-					"-largon2",
+					"/opt/homebrew/lib/libargon2.a",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = rotaryphone.Keep;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -308,7 +308,7 @@
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
-					"-largon2",
+					"/opt/homebrew/lib/libargon2.a",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = rotaryphone.Keep;
 				PRODUCT_NAME = "$(TARGET_NAME)";
