@@ -1,0 +1,22 @@
+# Xcode
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/
+DerivedData/
+.xcbuilddata/
+*.xcuserdata/
+*.xccheckout
+
+# macOS
+.DS_Store
+*.dSYM.zip
+*.dSYM
+
+# Python core
+core/__pycache__/
+core/**/__pycache__/
+core/*.egg-info/
+*.pyc
+
+# Build
+Build/
+*.app

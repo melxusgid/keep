@@ -1,0 +1,17 @@
+[project]
+name = "agent-keep"
+version = "0.1.0"
+description = "Encrypted secrets vault for AI agents and humans. AES-256-GCM, Argon2id, audit-logged."
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+crypto = ["cryptography>=42.0.0"]
+server = ["fastapi>=0.110.0", "uvicorn>=0.29.0"]
+all = ["cryptography>=42.0.0", "fastapi>=0.110.0", "uvicorn>=0.29.0"]
+
+[project.scripts]
+keep = "keep.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/melxusgid/keep"

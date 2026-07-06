@@ -1,0 +1,6 @@
+HEADER_SEARCH_PATHS = /opt/homebrew/include
+LIBRARY_SEARCH_PATHS = /opt/homebrew/lib
+OTHER_LDFLAGS = $(inherited) -largon2
+SWIFT_OBJC_BRIDGING_HEADER = Keep/Keep-Bridging-Header.h
+CODE_SIGN_STYLE = Automatic
+MACOSX_DEPLOYMENT_TARGET = 14.0
